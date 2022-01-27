@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+  </head>
+  <body>
+    <p id="top">This is the top</p>
+    <a href="http://www.link.com">hyperlinked text</a>
+    <a href="/review/xyz.html">hyperlinked text</a>
+    <p class="test">Test</p>
+    <p>Test</p>
+    <img src="./img/profile.jpg"alt="profile">
+    <!-- alt is for vison impaired and describes the image -->
+    <ol>
+      <li>Item<!--1--></li>
+      <!-- can comment in between lines -->
+      <li>Item2</li>
+      <li>Item3</li>
+      <!-- creates a list 1...2... -->
+    </ol>
+    <ul>
+      <li>Item1</li>
+      <li>Item2</li>
+      <li>Item3</li>
+      <!-- creates bullet points -->
+    </ul>
+    <a href="#top">back to top</a>
+  </body>
+</html>
