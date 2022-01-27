@@ -3,20 +3,15 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Week 2 practice </title>
+    <title>Welcome to Hyelin's Page</title>
   </head>
   <body>
-    <h1>This an <u> H1 header</u></h1>
-    <h2>This is an H2</h2>
-    <h3>This is an H3</h3>
-    <h4>This is an H4</h4>
-    <h5>This is an H5</h5>
-    <h6>This is an H6</h6>
-      <p>Hi, my name is <strong>Hyelin!</strong><p>
-      <p>I'm practicing <em>HTML!</em></p>
-
-      <h1><a href="www.pitchfork.com">Pitchfork</a></hl>
-      <a href="subdirectory/file.html">sub-directory file</a>
-      <p><a href="../index.html">parent directory</a></p>
+      <h1>Hello! My name is Hyelin Choi.</h1>
+      <em>My pronouns are she, her, hers.</em>
+      <p>I am a senior studying MCDB at the <strong>Universtiy of Colorado Boulder.</strong></p>
+      <p>I am hoping to gain more experience and feel comfortable coding through this class.</p>
+      <a href="img/profile.jpg">A picture of me!</a>
+      <img src="img/profile.jpg">
+      <a href="https://www.youtube.com/watch?v=t_i_Dq2GjAI&list=LL&index=30&ab_channel=TheAshleyZixuan">My go-to youtube video.</a>
   </body>
 </html>
