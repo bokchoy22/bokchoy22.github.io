@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Week 6 Demo </title>
+    <link rel="stylesheet" href="/css/stylesheet.css">
+
+    <!--<style>
+    p {color: red}
+    </style>-->
+
+
+
+  </head>
+
+  <body>
+    <div>
+    <h1 class="test-class">This is an H1</h1>
+    <p>This is our first week with CSS</p>
+    <p class="test-class">This is another paragrph</p>
+    <h2>This an H2</h2>
+    <h1 id="test-id-1">This is another file</h1>
+    </div>
+
+  </body>
+</html>
