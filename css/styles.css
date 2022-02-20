@@ -1,10 +1,25 @@
-p {
-    color:slategray;
-  }
-
 body{
   background-color:#F3EFCC;
   font-family:sans-serif;
+}
+
+img {
+  border: 3px solid #406343;
+}
+
+.welcome{
+  color:#32502E;
+  font-family: sans-serif;
+  background-color: #F3EFCC;
+}
+
+.intro{
+  font-color:#32502E;
+}
+
+.directory{
+  color:#32502E;
+  background-color: #F3EFCC;
 }
 
 h1{
@@ -14,4 +29,41 @@ h1{
 h3{
   font-family:sans-serif;
   color:#406343;
+}
+.picture {
+ height:200px
+ width: 200px
+}
+
+.button {
+  border: none;
+  color: #F3EFCC;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button1 {background-color: #32502E;border-radius: 30px;}
+.button1:hover {
+  background-color:#F3EFCC;
+  color:#406343;
+}
+.button1:active {
+  background-color: #F3EFCC;
+  box-shadow: 0 5px #32502E;
+  transform: translateY(4px);
+}
+
+.button2 {background-color: #32502E;border-radius: 30px;}
+.button2:hover {
+  background-color:#F3EFCC;
+  color:#406343;
+}
+.button2:active {
+  background-color: #F3EFCC;
+  box-shadow: 0 5px #32502E;
+  transform: translateY(4px);
 }
