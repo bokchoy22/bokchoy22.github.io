@@ -1,0 +1,23 @@
+.special-text{
+  font-style: oblique;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+
+.evil-button {
+  border-radius: 40px;
+  padding: 15px;
+  max-width: 50px;
+  margin: 30px;
+  font-size:12px;
+  background-color:#dc5b5d;
+  color:white;
+  border: none;
+
+  transition: box-shadow 0.5s ease-in-out;
+}
+
+.evil-button:hover{
+  margin: 30px;
+  box-shadow: 0px 2px 4px 0px rgb(153,153,153);
+}
