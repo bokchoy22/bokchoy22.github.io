@@ -24,3 +24,49 @@ h1{
   font-style: italic;
   font-size: 300%;
 }
+
+div{
+  background-color:green;
+  padding:20px;
+}
+p{
+  background-color: yellow;
+}
+
+@media screen and (max-width: 200px){
+  div{
+    background-color:yellow;
+    padding:20px;
+    }
+  p{
+    background-color: green;
+  }
+}
+
+@media screen and (width: 600px){
+  div{
+    display: flex;
+    flex-flow: row wrap;
+    background-color:yellow;
+    padding: 20px;
+    }
+  p{
+    background-color: orange;
+  }
+  .test{
+    width: 100px;
+    flex:2;
+  }
+}
+
+div{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  background-color:yellow;
+  padding: 20px;
+  }
+
+img{
+  max-width:100%;
+}
