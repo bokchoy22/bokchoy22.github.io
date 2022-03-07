@@ -90,6 +90,9 @@
   .picture{
     background-color: inherit;
     padding:5px;
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
     grid-column:2/4;
     grid-row: 2/4;
   }
@@ -170,19 +173,19 @@
     grid-row: 2/4;
   }
   .title {
-    background-color:red;
+    background-color:inherit;
     padding:5px;
     grid-column:1;
     grid-row: 1;
   }
   .nav {
-    background-color:green;
+    background-color:inherit;
     padding:5px;
     grid-column:1;
     grid-row: 2;
   }
   .content {
-    background-color:purple;
+    background-color:inherit;
     padding:5px;
     grid-column:1;
     grid-row: 3;
