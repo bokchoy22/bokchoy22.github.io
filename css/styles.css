@@ -110,6 +110,25 @@
     grid-row: 2/4;
 
   }
+  .profile{
+    background-color:inherit;
+    color:#32502E;
+    padding-top:150px;
+    grid-column:1;
+    grid-row: 1/4;
+
+  }
+
+  .cv{
+    background-color:inherit;
+    padding:100px;
+    grid-column:2/4;
+    grid-row: 1/4;
+    box-sizing: border-box;
+    display:block;
+    color:#32502E;
+  }
+
   .content {
     background-color:inherit;
     padding:5px;
