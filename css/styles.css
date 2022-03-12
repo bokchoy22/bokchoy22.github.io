@@ -23,7 +23,7 @@
 }
 
 
-@media screen and (min-width: 400px){
+@media screen and (min-width: 501px){
   body{
     background-color:#FFFEF2;
     font-family:'Didact Gothic', sans-serif;
@@ -113,7 +113,7 @@
   .profile{
     background-color:inherit;
     color:#32502E;
-    padding-top:150px;
+    margin-top:180px;
     grid-column:1;
     grid-row: 1/4;
 
@@ -131,7 +131,7 @@
 
   .content {
     background-color:inherit;
-    padding:5px;
+    margin-top:50px;
     grid-column:2/4;
     grid-row: 2/4;
     box-sizing: border-box;
@@ -139,10 +139,24 @@
     color:#32502E;
 
   }
+
+  .content_project{
+    background-color:inherit;
+    padding:100px;
+    grid-column:2/4;
+    grid-row: 1/4;
+    box-sizing: border-box;
+    display:block;
+    color:#32502E;
+  }
+
 }
-@media screen and (max-width: 399px){
+@media screen and (max-width: 500px){
+
+
   body{
-    background-color:yellow;
+    background-color:#FFFEF2;
+    color:#32502E;
     font-family:'Didact Gothic', sans-serif;
   }
 
@@ -152,7 +166,6 @@
   }
 
   nav{
-    display: flex;
     align-items: center;
     justify-content: space-between;
   }
@@ -163,11 +176,11 @@
   }
 
   .nav-links{
-  padding:28px 0;
+    font-size: 3em;
   }
 
   .nav-links li{
-  display: inline-block;
+  display: block;
   margin: 0 15px;
   }
 
@@ -180,7 +193,7 @@
   .box{
     display:grid;
     grid-template-columns:1fr;
-    grid-template-rows:1fr 1fr 1fr;
+    grid-template-rows:0.45fr 0.45fr 0.45fr;
     background-color: inherit;
     padding:20px;
     gap:20px;
@@ -201,12 +214,38 @@
     background-color:inherit;
     padding:5px;
     grid-column:1;
-    grid-row: 2;
+    grid-row: 3;
   }
   .content {
     background-color:inherit;
     padding:5px;
     grid-column:1;
-    grid-row: 3;
+    grid-row: 2;
   }
+
+  .profile{
+    background-color:inherit;
+    color:#32502E;
+    margin-top:180px;
+    grid-column:1;
+    grid-row: 3;
+
+  }
+
+  .content_project{
+    background-color:inherit;
+    grid-column:1;
+    grid-row:2;
+  }
+
+  .cv{
+    background-color:inherit;
+    padding:100px;
+    grid-column:1;
+    grid-row: 2;
+    box-sizing: border-box;
+    display:block;
+    color:#32502E;
+  }
+
 }
