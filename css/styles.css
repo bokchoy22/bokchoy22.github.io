@@ -271,7 +271,7 @@
 
   .cv{
     background-color:inherit;
-    padding:100px;
+    padding:10px;
     grid-column:1;
     grid-row: 2;
     box-sizing: border-box;
