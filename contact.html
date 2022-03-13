@@ -3,17 +3,13 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Hyelin Projects</title>
+    <title>Hyelin Contact</title>
     <link rel="stylesheet" href="./css/styles.css">
   </head>
   <body>
     <div class="box">
       <!--big div that holds other 3 div-->
       <div class="title">
-
-<video autoplay loop class="back-video" muted plays-inline>
-  <source src="img/background.mp4"type="video/mp4">
-</video>
 
         <nav>
           <img scr="img/logo.png" class="logo">
@@ -28,12 +24,8 @@
         </nav>
       </div>
 
-        <div class="nav-content">
-          <h1 style="color:#FFFEF2;"> Hyelin Choi</h1>
-        </div>
-
-        <div class="nav">
-          <img src="img/profile.jpg">
+        <div class="profile">
+          <img src="img/hyelinflower.jpg">
           <h2 style="color:#32502E;"><strong>HYELIN CHOI</strong></h2>
           <p>recent work</p>
           <ul>
@@ -41,33 +33,35 @@
             <li>guest lecturer on medicinal chemistry for MCDB 1171</li>
             <li>published in 2022 CHI Conference on Human Factors in Computing Systems</li>
           </ul>
+
+
         </div>
 
-          <div class="content">
-            <h1 style="color:#32502E;"><strong>hello!<strong></h1>
-            <p>I am a senior undergraduate student at the University of Colorado Boulder. I study Molecular Cellular and Developmental Biology. I am hoping to gain more experience and feel comfortable coding through this class.</p>
-            <p>If you can't find me at my computer, I am either drawing, cooking, or watching a crime show on Netflix. I love exploring new local cafes and attempting to make cute latte arts. Feel free to get in touch!</p>
+          <div class="content_project">
+            <h1 style="color:#32502E;"><strong>contact me<strong></h1>
+              <div class="container">
+                  <form action="action_page.php">
 
-            <h3>Fun Things To Check Out</h3>
-            <div class="picture">
-              <table>
-                <tr>
-                  <td><img src="img/fishpic.png" width=200></td>
-                  <td><img src="img/pasta.png" width=200></td>
-                  <td><img src="img/morepasta.png" width=210></td>
-                </tr>
-                <tr>
-                  <td><img src="img/beef.png" width=200></td>
-                  <td><img src="img/cake.png" width=200></td>
-                  <td><img src="img/shrimp.png" width=200></td>
-                </tr>
-                <tr>
-                  <td><img src="img/cheese.png" width=200></td>
-                  <td><img src="img/cupcake.png" width=200></td>
-                  <td><img src="img/lobster.png" width=200></td>
-                </tr>
-              </table>
-            </div>
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                      <option value="australia">Australia</option>
+                      <option value="canada">Canada</option>
+                      <option value="usa">USA</option>
+                    </select>
+
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                    <input type="submit" value="Submit">
+
+                  </form>
+                </div>
 
             </div>
     </div>
