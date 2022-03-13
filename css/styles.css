@@ -23,7 +23,9 @@
 }
 
 
-@media screen and (min-width: 390px){
+@media screen and (min-device-width: 1200px)
+and (max-device-width:1600px){
+
   body{
     background-color:#FFFEF2;
     font-family:'Didact Gothic', sans-serif;
@@ -182,7 +184,9 @@
   }
 
 }
-@media screen and (max-width: 389px){
+@media screen and (min-device-width: 375px)
+and (max-device-width: 812px)
+and (-webkit-min-device-pixel-ratio:3){
 
 
   body{
