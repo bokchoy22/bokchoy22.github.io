@@ -86,6 +86,11 @@ header {
   cursor: not-allowed;
 }
 
+#like{
+  position: fixed;
+  bottom: 0;
+}
+
 @media screen and (max-width: 600px) {
   .app {
     width: 100%;
