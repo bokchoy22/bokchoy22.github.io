@@ -5,6 +5,8 @@
     <meta charset="utf-8">
     <title>Hyelin Contact</title>
     <link rel="stylesheet" href="./css/styles.css">
+    <script defer src="./js/final.js" charset="utf-8"></script>
+
   </head>
   <body>
     <div class="box">
@@ -40,7 +42,7 @@
           <div class="content_project">
             <h1 style="color:#32502E;"><strong>contact me<strong></h1>
               <div class="container">
-                  <form action="action_page.php">
+                  <div>
 
                     <label for="fname">First Name</label>
                     <input type="text" id="fname" name="firstname" placeholder="Your name">
@@ -48,19 +50,18 @@
                     <label for="lname">Last Name</label>
                     <input type="text" id="lname" name="lastname" placeholder="Your last name">
 
-                    <label for="country">Country</label>
-                    <select id="country" name="country">
-                      <option value="canada">USA</option>
-                      <option value="usa">Canada</option>
-                      <option value="usa">Other</option>
-                    </select>
-
                     <label for="subject">Subject</label>
                     <textarea id="subject" name="subject" placeholder="Write me a message!" style="height:200px"></textarea>
+                    <button onclick="myFunction()">Submit</button>
+                    <p id="send"></p>
 
-                    <input type="submit" value="Submit">
+                    <div>
+                      <label for="summaryMessage">Summary of Message</label>
+                      <input id="summaryMessage" type="text" placeholder="">
+                      <p id="summary"></p>
+                    </div>
 
-                  </form>
+                  </div>
                 </div>
 
             </div>
