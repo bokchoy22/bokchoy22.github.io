@@ -109,7 +109,7 @@
     padding:5px;
     grid-column:1;
     grid-row: 2/4;
-
+    margin-top:150px;
   }
   .profile{
     background-color:inherit;
@@ -132,7 +132,7 @@
 
   .content {
     background-color:inherit;
-    margin-top:50px;
+    margin-top:150px;
     grid-column:2/4;
     grid-row: 2/4;
     box-sizing: border-box;
